@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #
-# corsis-get-cw-summary.py
+# corsis-get-ec2-summary.py
 #
 # ATonns Tue Feb 26 16:52:38 EST 2013
 #
@@ -50,7 +50,7 @@ pct = 0.95
 if __name__ == '__main__':
     # setup logging
     logging.basicConfig(
-        format="corsis-get-cw-summary.py: %(message)s",
+        format="corsis-get-ec2-summary.py: %(message)s",
         level=loglevel)
     # when did we start?
     inittime = datetime.datetime.now()
