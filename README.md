@@ -2,13 +2,10 @@
 
 Some scripts that calculate useful metrics from [AWS CloudWatch](http://aws.amazon.com/cloudwatch/)
 
-* corsis-get-95th-percent.py - get 95th percentile of CPU for an instance (fold, spindle and mutilate for other metrics)
-* corsis-get-ec2-summary.py - get mean, median, maximum and 95th pertcentile for all metrics for some EC2 InstanceIDs
+* get-95th-percent.py - get 95th percentile of CPU for an instance (fold, spindle and mutilate for other metrics)
+* get-ec2-summary.py - get mean, median, maximum and 95th pertcentile for all metrics for some EC2 InstanceIDs
 
 ### License
-
-Copyright 2013 Corsis
-http://www.corsis.com/
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
