@@ -1,11 +1,8 @@
 #!/usr/bin/python
 #
-# corsis-get-ec2-summary.py
+# get-ec2-summary.py
 #
 # ATonns Tue Feb 26 16:52:38 EST 2013
-#
-# Copyright 2013 Corsis
-# http://www.corsis.com/
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.

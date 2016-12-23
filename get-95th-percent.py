@@ -1,11 +1,8 @@
 #!/usr/bin/python
 #
-# corsis-get-95th-percent.py
+# get-95th-percent.py
 #
 # ATonns Fri Feb 15 10:36:15 EST 2013
-#
-# Copyright 2013 Corsis
-# http://www.corsis.com/
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
