@@ -4,6 +4,24 @@ Some scripts that calculate useful metrics from [AWS CloudWatch](http://aws.amaz
 
 * get-95th-percent.py - get 95th percentile of CPU for an instance (fold, spindle and mutilate for other metrics)
 * get-ec2-summary.py - get mean, median, maximum and 95th pertcentile for all metrics for some EC2 InstanceIDs
+* `get-lambda-summary.py` - get mean, median, maximum and 95th pertcentile for all metrics for a Lambda function
+
+```
+$ get-lambda-summary.py --help
+usage: get-lambda-summary.py [-h] [-d DAYS] [-p PERCENTILE] [-B] [-D]
+                             function [function ...]
+
+positional arguments:
+  function              lambda function(s) to collect stats on
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d DAYS, --days DAYS  days of data to get
+  -p PERCENTILE, --percentile PERCENTILE
+                        what percentile do you want to calculate
+  -B, --botodebug       enable boto debugging (not enabled with -D)
+  -D, --debug           output at debug level
+```
 
 ### License
 
